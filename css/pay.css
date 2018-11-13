@@ -1,0 +1,238 @@
+/*
+* @Author: hp
+* @Date:   2018-11-09 11:36:11
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-11 17:37:15
+*/
+header{
+	width: 100%;
+	height: 3.35rem;
+	/* background: black; */
+}
+header .up{
+	width: 100%;
+	height: 1rem;
+	background: #48dbfb;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+	font-size: 0.28rem;
+}
+header .on{
+	width: 100%;
+	height: 2.35rem;
+	/* background: red; */
+	padding-top: 0.19rem;
+}
+header .on .ontop{
+	width: 2.61rem;
+	height: 0.55rem;
+	/* background: yellow; */
+	font-size: 0.34rem;
+	color: #07b8de;
+	text-align: center;
+	line-height: 0.55rem;
+	/* margin-top: 0.19rem; */
+	margin-left: 0.8rem;
+}
+header .on .ontop span{
+	font-size: 0.5rem;
+}
+header .on h1{
+	font-size: 0.29rem;
+	color: #585858;
+	margin-top: 0.23rem;
+	margin-left: 0.8rem;
+}
+header .on h2{
+	font-size: 0.29rem;
+	color: #585858;
+	margin-top: 0.23rem;
+	margin-left: 0.8rem;
+}
+main{
+	width: 100%;
+	height: 9.6rem;
+	/* background: black; */
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	position: relative;
+}
+main .mainblue{
+	width: 100%;
+	height: 100%;
+	background: #5cbbfb;
+	border-radius: 0.3rem;
+	position: relative;
+	overflow: hidden;
+}
+main .up{
+	width: 100%;
+	height: 3.57rem;
+	background: #5cbbfb;
+	border-radius: 0.3rem;
+	border-bottom: 0.1rem dotted #fff;
+	position: relative;
+}
+main .on{
+	width: 100%;
+	height: 6rem;
+	background: #5cbbfb;
+	position: relative;
+}
+main .up .text{
+	width: 1.68rem;
+	height: 0.32rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.65rem;
+	margin-left: 2.67rem;
+	font-size: 0.31rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #fff;
+}
+main .wx{
+	width: 2.74rem;
+	height: 1.17rem;
+	background: #fff;
+	border-radius: 1rem;
+	position: absolute;
+	top: 1.72rem;
+	left: 0.36rem;
+	color: #1aad19;
+	font-size: 0.27rem;
+	text-align: center;
+	line-height: 1.17rem;	
+}
+main .wx i{
+	font-size: 0.56rem;
+}
+main .zfb{
+	width: 2.74rem;
+	height: 1.17rem;
+	background: #fff;
+	border-radius: 1rem;
+	position: absolute;
+	top: 1.72rem;
+	right: 0.4rem;
+	color: #5cbbfb;
+	font-size: 0.27rem;
+	text-align: center;
+	line-height: 1.17rem;	
+}
+main .zfb i{
+	font-size: 0.55rem;
+}
+main .zhezhao1{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 3.03rem;
+	z-index: 2;
+	left: -0.5rem;
+}
+main .zhezhao2{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 3.03rem;
+	z-index: 2;
+	right: -0.5rem;
+}
+main .on .box1{
+	width: 2.06rem;
+	height: 0.33rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.36rem;
+	margin-left: 2.43rem;
+	color: #fff;
+	font-size: 0.33rem;
+	text-align: center;
+	line-height: 0.33rem;	
+}
+main .on .box2{
+	width: 5.5rem;
+	height: 0.91rem;
+	background: #5cbbfb;
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 0.88rem;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	color: #fff;
+	font-size: 0.27rem;
+	padding-top: 0.17rem;
+}
+main .on .box2 img{
+	width: 0.59rem;
+	height: 0.51rem;
+	margin-right: 0.2rem;
+}
+main .on .box3{
+	width: 5.5rem;
+	height: 0.91rem;
+	background: #5cbbfb;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.88rem;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	color: #fff;
+	font-size: 0.27rem;
+	padding-top: 0.17rem;
+}
+main .on .box3 img{
+	width: 0.59rem;
+	height: 0.53rem;
+	margin-right: 0.2rem;
+}
+main .on .box4{
+	width: 5.5rem;
+	height: 0.91rem;
+	background: #5cbbfb;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.88rem;
+	/* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+	color: #fff;
+	font-size: 0.27rem;
+	padding-top: 0.17rem;
+}
+main .on .box4 img{
+	width: 0.62rem;
+	height: 0.62rem;
+	margin-right: 0.2rem;
+}
+main .on .box5{
+	width: 5.56rem;
+	height: 0.81rem;
+	background: #1aad19;
+	border-radius: 0.1rem;
+	position: absolute;
+	bottom: 0.55rem;
+	left: 0.71rem;
+	color: #fff;
+	font-size: 0.31rem;
+	text-align: center;
+	line-height: 0.81rem;
+	font-weight: bold;
+}
+main .on i{
+	color: #fff;
+	position: absolute;
+	top: 1.24rem;
+	font-size: 0.53rem;
+	right: 0.14rem;
+}
+main .on .icon-kuajingzhifuiconqueren{
+	color: rgba(0, 0, 0, 0.1);
+	top: 2.34rem;
+}
+main .on .lastbox{
+	color: rgba(0, 0, 0, 0.1);
+	top: 3.6rem;
+}

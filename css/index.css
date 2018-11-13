@@ -1,0 +1,341 @@
+/*
+* @Author: hp
+* @Date:   2018-11-07 09:39:04
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-08 00:49:53
+*/
+/* 阈值 320  375  411  412  414  750  768*/
+/* 媒体查询 屏幕 最小宽度 */
+/*font-size:calc(320/750*100px); 自动计算*/
+@media screen and (min-width: 320px){
+	html{/*font-size:calc(320/750*100px); 自动计算*/
+		font-size: calc(320/750*100px);
+	}
+}
+@media screen and (min-width: 360px){
+	html{
+		font-size: calc(360/750*100px);
+	}
+}
+@media screen and (min-width: 375px){
+	html{
+		font-size: calc(375/750*100px);
+	}
+}
+@media screen and (min-width: 411px){
+	html{
+		font-size: calc(411/750*100px);
+	}
+}
+@media screen and (min-width: 414px){
+	html{
+		font-size: calc(414/750*100px);
+	}
+}
+@media screen and (min-width: 750px){
+	html{
+		font-size: calc(750/750*100px);
+	}
+}
+@media screen and (min-width: 768px){
+	html{
+		font-size: calc(768/750*100px);
+	}
+}
+@media screen and (min-width: 1024px){
+	html{
+		font-size: calc(1024/750*100px);
+	}
+}
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+header{
+	width: 7.5rem;
+	height: 0.87rem;
+	background: #00a8ff;
+	position: relative;
+}
+header input{
+	width: 4.22rem;
+	height: 0.46rem;
+	background: #fff;
+	border-radius: 0.23rem;
+	float: left;
+	margin: 0.2rem 1.65rem;
+	border: none;
+	padding-left: 0.54rem;
+	padding-top: 0.05rem;
+}
+/* 修改input中提示性文本的颜色 */
+::-webkit-input-placeholder{
+	color: #00a8ff;
+}
+header img{
+	width: 0.23rem;
+	height: 0.23rem;
+	position: absolute;
+	top: 0.32rem;
+	left: 1.91rem;
+}
+header .box img{
+	width: 0.2rem;
+	height: 0.25rem;
+	/* background: yellow; */
+	position: absolute;
+	top: 0.3rem;
+	left: 5.2rem;
+}
+header .box1{
+	width: 0.45rem;
+	height: 0.45rem;
+	background: #fff;
+	position: absolute;
+	right: 0.26rem;
+	top: 0.19rem;
+	border-radius: 50%;
+	background-image: url('../img/saoyisao.png');
+	background-size: 0.23rem 0.2rem;
+	background-repeat: no-repeat;
+	background-position: 0.12rem 0.12rem;
+}
+main{
+	width: 100%;
+	background: #fff;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+main .banner{
+	width: 100%;
+	height: 4.38rem;
+	background: green;
+	margin-top: 0.07rem;
+	position: relative;
+}
+main .banner img{
+	width: 100%;
+	height: 100%;
+}
+main .banner .lbd{
+	width: 2rem;
+	height: 0.15rem;
+	/* background: yellow; */
+	position: absolute;
+	bottom: 0.08rem;
+	left: 2.66rem;
+}
+main .banner .lbd li{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-right: 0.32rem;
+}
+main .banner .lbd li:nth-child(5){
+	margin-right: 0;
+}
+nav{
+	width: 100%;
+	height: 4.47rem;
+	background: #fff;
+}
+nav li{
+	width: 1.01rem;
+	height: 1.49rem;
+	/* background: yellow; */
+	float: left;
+	margin-right: 0.89rem;
+	margin-top: 0.7rem;
+}
+nav li:nth-child(4){
+	margin-right: 0rem;
+}
+nav li:nth-child(8){
+	margin-right: 0rem;
+}
+nav li:nth-child(1){
+	margin-left: 0.1rem;
+}
+nav li:nth-child(5){
+	margin-left: 0.1rem;
+}
+nav li img{
+	width: 0.97rem;
+	height: 0.97rem;
+	display: block;
+	margin: 0 auto;
+}
+nav li p{
+	font-size: 0.24px;
+	font-weight: normal;
+	margin-top: 0.3rem;
+	margin-left: 0.1rem;
+}
+main .ggt{
+	width: 6.74rem;
+	height: 2.98rem;
+	/* background: yellow; */
+	margin-top: 0.79rem;
+}
+main .ggt li{
+	width: 50%;
+	height: 2.98rem;
+	/* background: black; */
+	float: left;
+}
+main .ggt li:nth-child(2){
+	height: 1.49rem;
+	/* background: yellow; */
+}
+main .ggt li:nth-child(3){
+	height: 1.49rem;
+	/* background: green; */
+}
+main .ggt li img{
+	width: 100%;
+	height: 100%;
+}
+main .ggbox{
+	width: 100%;
+	height: 1.49rem;
+	background: #fff;
+	margin-top: 0.65rem;
+	position: relative;
+}
+main .ggbox img{
+	width: 1.02rem;
+	height: 1.18rem;
+	display: block;
+	margin: 0 auto;
+}
+main .ggbox h1{
+	font-size: 0.26rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 2rem;
+}
+main .ggbox h2{
+	font-size: 0.26rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 3rem;
+}
+main .paixu{
+	width: 100%;
+	height: 0.78rem;
+	/* background: black; */
+}
+main .paixu li{
+	width: 2rem;
+	height: 0.6rem;
+	background: #54c9ff;
+	float: left;
+	border-radius: 0.31rem;
+	border: 2px solid #54c9ff;
+	margin-top: 0.17rem;
+	margin-right: 0.42rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.23rem;
+}
+main .paixu li:nth-child(2){
+	width: 1.44rem;
+	background: #fff;
+	color: #54c9ff;
+}
+main .paixu li:nth-child(3){
+	width: 1.44rem;
+	background: #fff;
+	color: #54c9ff;
+	margin-right: 0;
+}
+main .mainbox{
+	width: 100%;
+	height: 2.4rem;
+	background: #fff;
+	margin-top: 0.52rem;
+	padding: 0.2rem;
+	box-shadow: 0 0.15rem 30rem 0 rgba(0, 0, 0, 0.2);
+	position: relative;
+}
+main .mainbox .pic{
+	width: 1.6rem;
+	height: 1.96rem;
+	/* background: yellow; */
+	float: left;
+}
+main .mainbox .pic img{
+	width: 100%;
+	height: 100%;
+}
+main .mainbox .text{
+	width: 4.72rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	margin-left: 0.3rem;
+}
+main .mainbox .text h1{
+	font-size: 0.29rem;
+	margin-top: 0.15rem;
+	font-weight: normal;
+}
+main .mainbox .text .textbox{
+	width: 3.06rem;
+	height: 0.55rem;
+	background: #fff;
+	font-size: 0.18rem;
+	color: #8d8d8d;
+	padding-top: 0.15rem;
+	border-bottom: 0.01rem dotted #8d8d8d;
+}
+main .mainbox .text h2{
+	font-size: 0.2rem;
+	color: #8d8d8d;
+	margin-top: 0.02rem;
+	font-weight: normal;
+}
+main .mainbox .text h3{
+	font-size: 0.2rem;
+	color: #8d8d8d;
+	font-weight: normal;
+	/* margin-top: 0.01rem; */
+}
+main .mainbox .text .timebox{
+	width: 3.29rem;
+	height: 0.24rem;
+	/* background: yellow; */
+	position: absolute;
+	bottom: 0.1rem;
+}
+main .mainbox .text .timebox img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+main .kong{
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+
+}
+.dibu{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	margin-top: 0.25rem;
+	position: fixed;
+	bottom: 0;
+}
+.dibu img{
+	width: 5.65rem;
+	height: 0.74rem;
+	margin-bottom: 0.1rem;
+	margin-left: 0.9rem;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 名称=视口
+	     内容：宽度=设备的宽度.
+	     初始缩放比例=1.0
+	     最大缩放比例=1.0
+	     用户不允许任意缩放 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+      <!-- 移动端布局
+      物理像素:手机屏幕的实际尺寸/1080*768px
+      逻辑像素：几个像素点表示1px   320px 375px   414px   768px
+      视口：980px
+
+      1.改变视口---980px转化成不同手机的逻辑像素
+      2.成比例改变元素大小--rem
+        rem---相对根元素（html）字体大小的单位
+        html  font-size：10px；      1rem=1*10px=10px
+        html  font-size：50x；       1rem=1*50px=50px -->
+        <!-- 顶部搜索开始 -->
+        <header>
+        	<input type="text" placeholder="搜索" style="outline: none;">
+        	<img src="img/sousuo.png" alt="">
+        	<div class="box">
+        		<img src="img/yuyin.png" alt="">
+        	</div>
+        	<div class="box1"></div>
+        </header>
+        <!-- 顶部搜索结束 -->
+
+        <!-- 主体开始 -->
+        <main>
+            <!-- 轮播图开始 -->
+        	<div class="banner">
+        		<img src="img/0ceb1338c4b316c749ea5d8faf050ec0_b3da3fd7-95ea-11e7-8b71-d59791f3ca35@3x.png" alt="">
+        		<div class="lbd">
+        			<ul>
+        				<li></li>
+        				<li></li>
+        				<li></li>
+        				<li></li>
+        				<li></li>
+        			</ul>
+        		</div>
+        	</div>
+        	<!-- 轮播图结束 -->
+
+        	<!-- 导航栏开始 -->
+        	<nav>
+        		<ul>
+        			<li>
+        				<img src="img/hanbao.png" alt="">
+        				<p>汉堡快餐</p>
+        			</li>
+        			<li><img src="img/tianpin.png" alt="">
+        				<p>甜品饮品</p></li>
+        			<li><img src="img/chaoshi.png" alt="">
+        				<p>在线超市</p></li>
+        			<li><img src="img/xianhua.png" alt="">
+        				<p>同城鲜花</p></li>
+        			<li><img src="img/shengxian.png" alt="">
+        				<p>厨房生鲜</p></li>
+        			<li><img src="img/mianbao.png" alt="">
+        				<p>面包甜点</p></li>
+        			<li><img src="img/yaodian.png" alt="">
+        				<p>送药上门</p></li>
+        			<li><img src="img/zhaji.png" alt="">
+        				<p>炸鸡炸串</p></li>
+        		</ul>
+        	</nav>
+        	<!-- 导航栏结束 -->
+        	<!-- 广告图开始 -->
+        	<div class="ggt">
+        		<ul>
+        			<li>
+        				<img src="img/dangao1.png" alt="">
+        			</li>
+        			<li>
+        				<img src="img/dangao2.png" alt="">
+        			</li>
+        			<li>
+        				<img src="img/dangao3.png" alt="">
+        			</li>
+        		</ul>
+        	</div>
+        	<!-- 广告图结束 -->
+
+        	<!-- 推荐商家开始 -->
+        	<div class="ggbox">
+        		<img src="img/3x01.png" alt="">
+        		<h1>RECOMMENDING BUSINESS</h1>
+        		<h2>推荐商家</h2>
+        	</div>
+        	<!-- 推荐商家结束 -->
+
+        	<!-- 综合排序开始 -->
+        	<div class="paixu">
+        		<ul>
+        			<li>综合排序</li>
+        			<li>距离</li>
+        			<li>销量</li>
+        		</ul>
+        	</div>
+        	<!-- 综合排序结束 -->
+
+        	<!-- 汉堡王开始 -->
+            <a href="list.html"><div class="mainbox">
+                <div class="pic">
+                    <img src="img/hanbaowang.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h1>汉堡王 (学府街店)</h1>
+                    <div class="textbox">德式烤猪肘堡</div>
+                    <h2>特选原切猪肘肉，经过高温火烤工艺，</h2>
+                    <h3>肉香四溢，猪肘Q弾柔嫩</h3>
+                    <div class="timebox">
+                        <img src="img/time.png" alt="">
+                    </div>
+                </div>
+            </div></a>
+        	<div class="mainbox">
+        		<div class="pic">
+        			<img src="img/hanbaowang.jpg" alt="">
+        		</div>
+        		<div class="text">
+        			<h1>汉堡王 (学府街店)</h1>
+        			<div class="textbox">德式烤猪肘堡</div>
+        			<h2>特选原切猪肘肉，经过高温火烤工艺，</h2>
+        			<h3>肉香四溢，猪肘Q弾柔嫩</h3>
+        			<div class="timebox">
+        				<img src="img/time.png" alt="">
+        			</div>
+        		</div>
+        	</div>
+        	<div class="kong"></div>
+        	<!-- 汉堡王结束 -->
+        </main>
+        <!-- 主体结束 -->
+
+        <!-- 底部栏开始 -->
+        <a href="my.html"><div class="dibu">
+            <img src="img/dibu.png" alt="">
+        </div></a>
+        <!-- 底部栏结束 -->
+
+</body>
+</html>

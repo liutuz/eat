@@ -1,0 +1,157 @@
+/*
+* @Author: hp
+* @Date:   2018-11-11 22:43:32
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-13 00:46:41
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+main{
+	width: 100%;
+	height: 13.34rem;
+	/* background: yellow; */
+	background-image: url('../img/login.png');
+	background-size: cover;
+}
+main .all{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0 0.24rem;
+	padding-top: 0.4rem;
+}
+main .allbox{
+	width: 100%;
+	height: 12rem;
+	/* background: green; */
+	position: relative;
+}
+main .allbox .top{
+	width: 1.15rem;
+	height: 0.54rem;
+	background: rgba(255, 255, 255, 0.5);
+	float: right;
+	margin-top: 0.24rem;
+	margin-right: 0.07rem;
+	border-radius: 0.27rem;
+	color: black;
+	text-align: center;
+	line-height: 0.54rem;
+	font-size: 0.27rem;
+}
+main .allbox .mid{
+	width: 100%;
+	height: 5.74rem;
+	background: rgba(255, 255, 255, 0.5);
+	float: left;
+	margin-top: 2.4rem;
+	border-radius: 0.3rem;
+	position: relative;
+}
+main .allbox .mid .cha{
+	width: 0.3rem;
+	height: 0.3rem;
+	/* background: yellow; */
+	background-image: url('../img/cha.png');
+	background-size: cover;
+	float: right;
+	margin-top: 0.23rem;
+	margin-right: 0.3rem;
+}
+main .allbox .mid h1{
+	font-size: 0.44rem;
+	font-weight: normal;
+	margin-top: 0.7rem;
+	margin-left: 1.97rem;
+}
+main .allbox .mid .zhanghao{
+	width: 4.79rem;
+	height: 0.47rem;
+	/* background: yellow; */
+	margin-top: 0.7rem;
+	margin-left: 1.12rem;
+	border-bottom: 0.02rem solid #8e8c88;
+	font-size: 0.2rem;
+	color: black;
+}
+main .allbox .mid .zhanghao input{
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	font-size: 0.28rem;
+}
+main .allbox .mid .zdzc{
+	width: 4.79rem;
+	height: 0.5rem;
+	/* background: yellow; */
+	margin-top: 0rem;
+	margin-left: 1.12rem;
+	padding-top: 0.3rem;
+	/* border-bottom: 0.02rem solid #8e8c88; */
+	font-size: 0.18rem;
+	color: #696868;
+}
+main .allbox .mid .mima input{
+	background: rgba(255, 255, 255, 0);
+	border: none;
+	font-size: 0.28rem;
+}
+main .allbox .mid .mima i{
+	float: right;
+	margin-right: 0;
+}
+main .allbox .mid .denglu{
+	width: 4.84rem;
+	height: 0.58rem;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 0.2rem;
+	margin: 0 auto;
+	margin-top: 0.54rem;
+	color: rgba(0, 0, 0, 0.4);
+	font-size: 0.27rem;
+	text-align: center;
+	line-height: 0.58rem;
+}
+main .allbox .mid span{
+	font-size: 0.16rem;
+	color: black;
+	float: left;
+	margin-top: 0.53rem;
+	margin-left: 1.12rem;
+	margin-right: 3.21rem;
+}
+main .allbox .mid .span1{
+	position: absolute;
+	bottom: 0.25rem;
+	right: -2.2rem;
+}
+main .last{
+	width: 100%;
+	height: 2.13rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.93rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1.13rem;
+	border-top: 1px dashed rgba(0, 0, 0, 0.2)
+}
+main .last img{
+	width: 0.93rem;
+	height: 0.93rem;
+}
+main .text{
+	width: 2.39rem;
+	height: 0.29rem;
+	/* background: yellow; */
+	position: absolute;
+	bottom: 2rem;
+	left: 2.35rem;
+	color: #fff;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.29rem;
+}

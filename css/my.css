@@ -1,0 +1,230 @@
+/*
+* @Author: hp
+* @Date:   2018-11-12 15:35:07
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-13 00:39:44
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 4.48rem;
+	background: black;
+}
+header .up{
+	width: 100%;
+	height: 2.88rem;
+	background: #0394ff;
+	padding-top: 0.23rem;
+}
+header .up .top{
+	width: 100%;
+	height: 0.44rem;
+	/* background: red; */
+	font-size: 0.35rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.44rem;
+}
+header .up .top img{
+	width: 0.35rem;
+	height: 0.4rem;
+	margin-right: 2.67rem;
+}
+header .up .top .shezhi{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-left: 2.67rem;
+	margin-right: 0;
+}
+header .up .mid{
+	width: 100%;
+	height: 1.2rem;
+	/* background: red; */
+	margin-top: 0.62rem;
+	position: relative;
+}
+header .up .mid .midz{
+	width: 1.2rem;
+	height: 1.2rem;
+	/* background: green; */
+	border-radius: 50%;
+	margin-left: 0.4rem;
+	background-image: url('../img/my.jpg');
+	background-size: 1.2rem 1.2rem;
+}
+header .up .mid .midy{
+	width: 2.29rem;
+	height: 0.88rem;
+	/* background: green; */
+	float: left;
+	margin-left: 1.9rem;
+	margin-top: -1rem;
+}
+header .up .mid .midy h1{
+	font-size: 0.38rem;
+	color: #fff;
+	margin-bottom: 0.1rem;
+	font-weight: normal;
+}
+header .up .mid .midy h2{
+	font-size: 0.18rem;
+	color: #fff;
+	font-weight: normal;
+}
+header .up .mid img{
+	width: 0.16rem;
+	height: 0.25rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.4rem;
+}
+header .on{
+	width: 100%;
+	height: 1.6rem;
+	background: #f5f5f5;
+	display: flex;
+	justify-content: space-around;
+}
+header .on .onbox{
+	width: 2.48rem;
+	height: 100%;
+	background: #fff;
+	border-bottom: 1px solid #f5f5f5;
+}
+header .on .onbox h1{
+	font-size: 0.34rem;
+	color: #2395ff;
+	margin-top: 0.5rem;
+	margin-left: 0.85rem;
+}
+header .on .onbox h1 span{
+	font-size: 0.17rem;
+	font-weight: normal;
+}
+header .on .onbox h2{
+	font-size: 0.18rem;
+	color: #666666;
+	margin-top: 0.18rem;
+	margin-left: 1rem;
+	font-weight: normal;
+}
+header .on .onbox1 h1{
+	color: #ff5f3e;
+	margin-left: 1rem;
+}
+header .on .onbox2 h1{
+	color: #ffa200;
+}
+main{
+	width: 100%;
+	height: 8.48rem;
+	background: #f5f5f5;
+	padding-top: 0.22rem;
+}
+main .maintop{
+	width: 100%;
+	height: 1.58rem;
+	background: #fff;
+	padding-top: 0.42rem;
+}
+main .maintop h1{
+	font-size: 0.35rem;
+	color: black;
+	font-weight: normal;
+	float: left;
+	margin-left: 0.37rem;
+}
+main .maintop h1 span{
+	color: #bfa123;
+}
+main .maintop h2{
+	font-size: 0.23rem;
+	color: #6a6a6a;
+	font-weight: normal;
+	margin-top: 0.15rem;
+	float: left;
+	margin-left: 0.37rem;
+}
+main .maintop img{
+	width: 0.95rem;
+	height: 0.88rem;
+	display: block;
+	float: left;
+	margin-left: 0.34rem;
+}
+main .mainmid1{
+	width: 100%;
+	height: 2.64rem;
+	background: #fff;
+	margin-top: 0.2rem;
+}
+main .mainmid1 li{
+	width: 6.5rem;
+	height: 0.87rem;
+	/* background: red; */
+	border-bottom: 1px solid #eeeeee;
+	float: right;
+	font-size: 0.3rem;
+	line-height: 0.87rem;
+	color: black;	
+}
+main .mainmid1 li i{
+	margin-left: 5rem;
+	color: #999999;
+}
+main .mainmid1 li:nth-child(3){
+	border-bottom: 0;
+}
+main .picbox{
+	width: 0.99rem;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+	padding-top: 0.2rem;
+}
+main .picbox img{
+	width: 0.31rem;
+	height: 0.36rem;
+	display: block;
+	margin-bottom: 0.57rem;
+	margin-left: 0.3rem;
+}
+main .picbox img:nth-child(3){
+	width: 0.36rem;
+	height: 0.28rem;
+}
+main .mainmid2{
+	width: 100%;
+	height: 2.64rem;
+	background: #fff;
+	margin-top: 0.2rem;
+}
+main .mainmid2 li{
+	width: 6.5rem;
+	height: 0.87rem;
+	/* background: red; */
+	border-bottom: 1px solid #eeeeee;
+	float: right;
+	font-size: 0.3rem;
+	line-height: 0.87rem;
+	color: black;	
+}
+main .mainmid2 li i{
+	margin-left: 5rem;
+	color: #999999;
+}
+main .mainmid2 li:nth-child(3){
+	border-bottom: 0;
+}
+main .mainlast{
+	width: 100%;
+	height: 1rem;
+	/* background: yellow; */
+	/* margin-top: 0.38rem; */
+	background-image: url('../img/LAST.png');
+	background-size: cover;
+}

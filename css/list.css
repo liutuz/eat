@@ -1,0 +1,252 @@
+/*
+* @Author: hp
+* @Date:   2018-11-07 11:28:18
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-13 00:46:56
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 3.75rem;
+	background: -webkit-linear-gradient(left, #b1c9ce , green);
+}
+header .pic{
+	width: 1.71rem;
+	height: 1.65rem;
+	background: #fff;
+	float: left;
+	margin-top: 1.49rem;
+	margin-left: 0.64rem;
+}
+header .pic img{
+	width: 100%;
+	height: 100%;
+}
+header .text{
+	width: 4.65rem;
+	height: 1.65rem;
+	/* background: black; */
+	float: left;
+	margin-top: 1.49rem;
+	margin-left: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header .text h1{
+	font-size: 0.25rem;
+	color: #fff;
+	font-weight: normal;
+}
+header .text h2{
+	font-size: 0.17rem;
+	color: #dacdc9;
+	font-weight: normal;
+}
+header .xingxing{
+	width: 1.41rem;
+	height: 0.24rem;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header .xingxing img{
+	width: 0.23rem;
+	height: 0.22rem;
+}
+header .text .text1{
+	width: 3.5rem;
+	height: 0.22rem;
+	/* background: yellow; */
+	font-size: 0.17rem;
+	color: #fff;
+}
+header .text .text1 img{
+	width: 0.14rem;
+	height: 0.21rem;
+}
+header .text .text2{
+	width: 1.5rem;
+	height: 0.2rem;
+	/* background: yellow; */
+	font-size: 0.17rem;
+	color: #fff;
+}
+header .text .text2 img{
+	width: 0.2rem;
+	height: 0.21rem;
+}
+nav{
+	width: 100%;
+	height: 1.4rem;
+	/* background: yellow; */
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav li{
+	width: 0.57rem;
+	height: 0.38rem;
+	/* background: black; */
+	margin-top: 0.78rem;
+	text-align: center;
+	line-height: 0.38rem;
+	font-size: 0.27rem;
+	color: black;
+	border-bottom: 0.01rem solid #2ab1f6;
+}
+nav li:nth-child(2){
+	border-bottom: 0;
+}
+nav li:nth-child(3){
+	border-bottom: 0;
+}
+main{
+	width: 100%;
+	background: #fff;
+	padding: 0.24rem 0.24rem 0 0.24rem;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between; 
+}
+main .left{
+	width: 1.74rem;
+	height: 3.97rem;
+	background: #fff;
+}
+main .right{
+	width: 5.12rem;
+	/* height: 3rem; */
+	background: #fff;
+}
+main .left ul{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+}
+main .left ul li{
+	width: 100%;
+	height: 0.6rem;
+	background: #f4f4f4;
+	margin-bottom: 0.07rem;
+	font-size: 0.22rem;
+	color: black;
+	text-align: center;
+	line-height: 0.6rem;
+}
+main .left ul li:nth-child(1){
+	color: #fff;
+	background: #23c4f9;
+}
+main .right ul{
+	width: 100%;
+	height: 7.95rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+main .right ul li{
+	width: 100%;
+	height: 2.13rem;
+	background: #fff;
+	margin-bottom: 0.37rem;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.05rem 0.15rem 0 rgba(0, 0, 0, 0.1);
+	padding: 0.29rem;
+	position: relative;
+}
+main .right ul li .pic{
+	width: 1.6rem;
+	height: 1.6rem;
+	/* background: yellow; */
+}
+main .right ul li .pic img{
+	width: 100%;
+	height: 100%;
+}
+main .right ul li .text{
+	width: 2rem;
+	height: 1.58rem;
+	/* background: yellow; */
+	position: absolute;
+	top: 0.28rem;
+	right: 0.9rem;
+}
+main .right ul li .text h1{
+	font-size: 0.27rem;
+	color: black;
+	margin-bottom: 0.1rem;
+}
+main .right ul li .text h2{
+	font-size: 0.18rem;
+	color: #585858;
+	margin-bottom: 0.1rem;
+}
+main .right ul li .text h3{
+	font-size: 0.2rem;
+	color: #585858;
+	margin-bottom: 0.16rem;
+}
+main .right ul li .text h4{
+	font-size: 0.25rem;
+	color: #ff4e09;
+}
+main .right ul li i{
+	font-size: 0.53rem;
+	/* z-index: 999; */
+	color: #23c4f9;
+	position: absolute;
+	right: 0.11rem;
+	bottom: 0.2rem;
+}
+.dibu{
+	width: 100%;
+	height: 1.48rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+}
+.dibu .dibubox{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.dibu i{
+	font-size: 0.53rem;
+	background: #e3e3e3;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.46rem;
+	left: 0.82rem;
+}
+.dibu h1{
+	font-size: 0.22rem;
+	color: #585858;
+	position: absolute;
+	top: 0.48rem;
+	left: 2rem;
+}
+.dibu h2{
+	font-size: 0.22rem;
+	color: #585858;
+	position: absolute;
+	bottom: 0.48rem;
+	left: 2rem;
+}
+.dibu h3{
+	width: 2.19rem;
+	height: 1.48rem;
+	background: #e3e3e3;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 1.48rem;
+}

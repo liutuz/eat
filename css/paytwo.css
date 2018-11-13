@@ -1,0 +1,137 @@
+/*
+* @Author: hp
+* @Date:   2018-11-11 19:01:55
+* @Last Modified by:   hp
+* @Last Modified time: 2018-11-13 00:48:19
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	height: 1rem;
+	background: #48dbfb;
+	position: relative;
+	padding-top: 0.2rem;
+}
+header h1{
+	font-size: 0.23rem;
+	color: #fff;
+	margin-left: 3.3rem;
+}
+header h2{
+	font-size: 0.16rem;
+	color: rgba(255, 255, 255, 0.7);
+	margin-left: 2.9rem;
+}
+header i{
+	font-size: 0.41rem;
+	color: #fff;
+	position: absolute;
+	top: 0.3rem;
+	left: 0.24rem;
+}
+main{
+	width: 100%;
+	height: 11.94rem;
+	padding: 0 0.24rem;
+}
+main .top{
+	width: 6.62rem;
+	height: 2.26rem;
+	background: #fff;
+	margin-top: 0.3rem;
+	float: left;
+	margin-left: 0.21rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.01rem 0.15rem 0 #1ad7ff;
+	padding: 0.3rem;
+}
+main .top .pic{
+	width: 1.71rem;
+	height: 1.65rem;
+	/* background: yellow; */
+}
+main .top .pic img{
+	width: 100%;
+	height: 100%;
+}
+main .top .text{
+	width: 3.98rem;;
+	height: 1.59rem;
+	/* background: red; */
+	float: right;
+	margin-top: -1.6rem;
+}
+main .top .text h1{
+	font-size: 0.26rem;
+	color: #737373;
+}
+main .top .text h2{
+	font-size: 0.26rem;
+	color: #737373;
+}
+main .top .text .box1{
+	width: 1.89rem;
+	height: 0.48rem;
+	background: #54c9ff;
+	border-radius: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.48rem;
+	font-size: 0.23rem;
+	float: left;
+	margin-top: 0.4rem;
+}
+main .top .text .box2{
+	width: 1.89rem;
+	height: 0.48rem;
+	background: #54c9ff;
+	border-radius: 0.24rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.48rem;
+	font-size: 0.23rem;
+	float: left;
+	margin-top: 0.4rem;
+}
+main .tuijian{
+	width: 3.37rem;
+	height: 0.29rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.27rem;
+	margin-left: 1.89rem;
+	/* font-size: 0.28rem; */
+	background-image: url('../img/SPTJ.png');
+	background-position: center;
+	background-size: cover;
+}
+main .mid{
+	width: 100%;
+	height: 7.68rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.65rem;
+}
+main .mid li{
+	width: 3.18rem;
+	height: 3.5rem;
+	/* background: red; */
+	float: left;
+	margin-right: 0.2rem;
+	margin-left: 0.23rem;
+	margin-bottom: 0.6rem;
+}
+main .mid li:nth-child(2){
+	margin-left: 0;
+}
+main .mid li:nth-child(4){
+	margin-left: 0;
+}
+main .mid li img{
+	width: 100%;
+	height: 100%;
+}
